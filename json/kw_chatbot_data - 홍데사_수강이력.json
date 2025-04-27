@@ -1,0 +1,218 @@
+[
+ {
+  "id": 2024204913,
+  "lecture_id": "I000-1-3674-01",
+  "lecture_name": "창의설계입문",
+  "department_offered": "인공지능융합대학공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-1-8610-01",
+  "lecture_name": "프로그래밍기초",
+  "department_offered": "정보융합학부",
+  "course_type": "교필",
+  "credits": 3,
+  "grade": "C+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-3095-02",
+  "lecture_name": "융합적사고와글쓰기",
+  "department_offered": "전체공통",
+  "course_type": "교필",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I000-1-8297-01",
+  "lecture_name": "컴퓨팅사고",
+  "department_offered": "인공지능융합대학공통",
+  "course_type": "교필",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-4625-08",
+  "lecture_name": "대학수학및연습1",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-2238-01",
+  "lecture_name": "스케이팅",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-2339-01",
+  "lecture_name": "고급C프로그래밍",
+  "department_offered": "전체공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I000-2-1186-01",
+  "lecture_name": "이산수학",
+  "department_offered": "인공지능융합대학공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-3687-01",
+  "lecture_name": "그래픽디자인",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-4626-11",
+  "lecture_name": "대학수학및연습2",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-2-6373-01",
+  "lecture_name": "아카펠라",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-2-6397-01",
+  "lecture_name": "범죄학",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-7777-01",
+  "lecture_name": "객체지향프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "C+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-3688-01",
+  "lecture_name": "AI수학",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-1655-01",
+  "lecture_name": "컴퓨터네트워크",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-4501-01",
+  "lecture_name": "빅데이터프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-5678-01",
+  "lecture_name": "대중문화와삶",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-9930-01",
+  "lecture_name": "화폐와금융의과거,현재그리고미래",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-1243-01",
+  "lecture_name": "자료구조",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-6387-01",
+  "lecture_name": "모바일프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-3663-01",
+  "lecture_name": "데이터베이스",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "I040-2-4141-01",
+  "lecture_name": "정보디자인프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "C+"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-3948-01",
+  "lecture_name": "사회학의이해",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204913,
+  "lecture_id": "0000-1-9885-01",
+  "lecture_name": "생활속의생명과학",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ }
+]

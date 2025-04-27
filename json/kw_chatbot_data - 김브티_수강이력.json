@@ -1,0 +1,218 @@
+[
+ {
+  "id": 2024204708,
+  "lecture_id": "I000-1-3674-01",
+  "lecture_name": "창의설계입문",
+  "department_offered": "인공지능융합대학공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-1-8610-01",
+  "lecture_name": "프로그래밍기초",
+  "department_offered": "정보융합학부",
+  "course_type": "교필",
+  "credits": 3,
+  "grade": "C0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-4625-08",
+  "lecture_name": "대학수학및연습1",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-2950-01",
+  "lecture_name": "초급중국어1",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-8876-01",
+  "lecture_name": "경제와경영",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-2-2991-01",
+  "lecture_name": "자연과학사",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-2339-01",
+  "lecture_name": "고급C프로그래밍",
+  "department_offered": "전체공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I000-2-1186-01",
+  "lecture_name": "이산수학",
+  "department_offered": "인공지능융합대학공통",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-3687-01",
+  "lecture_name": "그래픽디자인",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-4626-11",
+  "lecture_name": "대학수학및연습2",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-2-6948-01",
+  "lecture_name": "대중음악의역사",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-2-2994-01",
+  "lecture_name": "환경과생태",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-7777-01",
+  "lecture_name": "객체지향프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "B0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-3688-01",
+  "lecture_name": "AI수학",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "C+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-1655-01",
+  "lecture_name": "컴퓨터네트워크",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-9160-01",
+  "lecture_name": "인터랙티브미디어개론",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "B0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-8085-01",
+  "lecture_name": "논리적으로사고하기",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-2-3029-01",
+  "lecture_name": "인터넷활용",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-1243-01",
+  "lecture_name": "자료구조",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "B+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-6387-01",
+  "lecture_name": "모바일프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전필",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-3689-01",
+  "lecture_name": "인터랙티브심리학",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "I040-2-4141-01",
+  "lecture_name": "정보디자인프로그래밍",
+  "department_offered": "정보융합학부",
+  "course_type": "전선",
+  "credits": 3,
+  "grade": "C+"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-3948-01",
+  "lecture_name": "사회학의이해",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A0"
+ },
+ {
+  "id": 2024204708,
+  "lecture_id": "0000-1-9885-01",
+  "lecture_name": "생활속의생명과학",
+  "department_offered": "전체공통",
+  "course_type": "교선",
+  "credits": 3,
+  "grade": "A+"
+ }
+]
