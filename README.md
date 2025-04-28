@@ -1,3 +1,5 @@
+chroma run --path ./chroma_storage
+---
 Collection_data.py에서 
 ```
 # 2. Collection 열기
