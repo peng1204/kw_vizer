@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KW-Vizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="header.png" alt="KW-Vizer 로고" class="logo">
+    </a>
+  </header>
+
+  <main>
+    <div class="chatbox">
+      <p>KW-vizer에게 무엇이든 물어보세요!</p>
+      <form action="chat.html" method="GET">
+        <div class="input-wrapper">
+          <input type="text" name="q" placeholder="강의 탐색, 학습 현황, 진로 상담을 입력해보세요!" required>
+          <button type="submit">➔</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
+
+
+<script>
+  const chatContainer = document.querySelector('.chat-container');
+
+  function scrollToBottom() {
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+  }
+
+  // 예시: 새로운 채팅 메시지가 추가된 후 호출
+  const observer = new MutationObserver(scrollToBottom);
+  observer.observe(chatContainer, { childList: true });
+
+  // 또는 메시지 추가할 때마다 직접 호출해도 됨
+  // scrollToBottom();
+</script>
