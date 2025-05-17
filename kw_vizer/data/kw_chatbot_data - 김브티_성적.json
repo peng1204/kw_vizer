@@ -1,0 +1,24 @@
+[
+ {
+  "category": "credits_applied",
+  "credits_major": 33,
+  "credits_general": 39,
+  "credits_total": 72
+ },
+ {
+  "category": "credits_dropped",
+  "credits_major": 0,
+  "credits_general": 3,
+  "credits_total": 3
+ },
+ {
+  "category": "credits_earned",
+  "credits_major": 33,
+  "credits_general": 36,
+  "credits_total": 69
+ },
+ {
+  "category": "credits_avg",
+  "credits_total": 3.57
+ }
+]

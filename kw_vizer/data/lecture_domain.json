@@ -1,0 +1,74 @@
+[
+    {
+        "lecture_domain": "0",
+        "domain": "교양필수"
+    },
+    {
+        "lecture_domain": "1",
+        "domain": "언어와 표현"
+    },
+    {
+        "lecture_domain": "2",
+        "domain": "과학과 기술"
+    },
+    {
+        "lecture_domain": "3",
+        "domain": "인간과 철학"
+    },
+    {
+        "lecture_domain": "4",
+        "domain": "사회와 경제"
+    },
+    {
+        "lecture_domain": "5",
+        "domain": "글로벌문화와제2외국어"
+    },
+    {
+        "lecture_domain": "6",
+        "domain": "예술과 체육"
+    },
+    {
+        "lecture_domain": "7",
+        "domain": "대학실용영어"
+    },
+    {
+        "lecture_domain": "8",
+        "domain": "수리와자연(수학)영역"
+    },
+    {
+        "lecture_domain": "9",
+        "domain": "수리와자연(물리)영역"
+    },
+    {
+        "lecture_domain": "10",
+        "domain": "수리와자연(화학)영역"
+    },
+    {
+        "lecture_domain": "11",
+        "domain": "수리와자연(생물)영역"
+    },
+    {
+        "lecture_domain": "12",
+        "domain": "서울권역 e-러닝"
+    },
+    {
+        "lecture_domain": "13",
+        "domain": "k-mooc"
+    },
+    {
+        "lecture_domain": "14",
+        "domain": "매치업"
+    },
+    {
+        "lecture_domain": "18",
+        "domain": "창업 교과목"
+    },
+    {
+        "lecture_domain": "19",
+        "domain": "인공진능융합대학 공통"
+    },
+    {
+        "lecture_domain": "20",
+        "domain": "정보융합학부 전공"
+    }
+]
