@@ -13,22 +13,52 @@
       <div class="login-form__container">
         <h3 class="login-form__title">로그인</h3>
 
-        <form class="login-form" action="/login" method="POST">
+        <form id="login-form" class="login-form">
           <div>
             <label for="class_number" class="login-form__label">학번</label>
-            <input id="class_number" name="class_number" class="login-form__input" />
+            <input id="class_number" name="class_number" class="login-form__input" required />
           </div>
           
           <div>
             <label for="password" class="login-form__label">비밀번호</label>
-            <input id="password" name="password" class="login-form__input" type="password" />
+            <input id="password" name="password" class="login-form__input" type="password" required />
           </div>
           
           <button type="submit" class="login-form__button">Log In</button>
         </form>
-
       </div>
     </div>
-    <script src="script.js"></script>
+
+    <script>
+      document.getElementById("login-form").addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const class_number = document.getElementById("class_number").value;
+        const password = document.getElementById("password").value;
+
+        try {
+          const res = await fetch('/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ class_number, password })
+          });
+
+          const data = await res.json();
+
+          if (res.ok && data.success) {
+            // localStorage에 저장
+            localStorage.setItem("class_number", data.class_number);
+            localStorage.setItem("user_name", data.name);
+            // 챗봇 페이지로 이동
+            window.location.href = "chat.html";
+          } else {
+            alert(data.message || "로그인에 실패했습니다.");
+          }
+        } catch (error) {
+          alert("서버 오류가 발생했습니다.");
+          console.error(error);
+        }
+      });
+    </script>
   </body>
-  </html>
+</html>

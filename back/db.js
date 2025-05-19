@@ -7,10 +7,10 @@ const connection = mysql.createConnection({
     password: 'deft10230219!',
     database: 'class' 
   });
-  
-db.connect(err => {
-    if (err) throw err;
-    console.log('✅ MySQL 연결 성공쓰쓰');
-  });
-  
-  module.exports = db;
+
+connection.connect(err => {
+  if (err) throw err;
+  console.log('✅ MySQL 연결 성공쓰~');
+});
+
+module.exports = connection;

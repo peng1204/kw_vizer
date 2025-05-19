@@ -1,0 +1,238 @@
+[
+ {
+  "lecture_academic_year": 1,
+  "lecture_semester": 1,
+  "lecture_course_type": "기필",
+  "lecture_ name": "대학수학및연습1",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "교필",
+  "lecture_ name": "프로그래밍기초",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "창의설계입문",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "기선",
+  "lecture_ name": "통계학개론",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "이산수학",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "그래픽디자인",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "교필",
+  "lecture_ name": "컴퓨팅사고",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "기선",
+  "lecture_ name": "대학수학및연습2",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "기선",
+  "lecture_ name": "고급C프로그래밍",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_academic_year": 2,
+  "lecture_semester": 1,
+  "lecture_course_type": "전필",
+  "lecture_ name": "객체지향프로그래밍",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전필",
+  "lecture_ name": "AI수학",
+  "lecture_credit": 1,
+  "lecture_hours": 2
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "인터랙티브미디어개론",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "컴퓨터네트워크",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "TBL"
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "빅데이터언어",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "TBL"
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전필",
+  "lecture_ name": "자료구조",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전필",
+  "lecture_ name": "모바일프로그래밍",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "오픈소스소프트웨어",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "인터랙티브심리학",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "데이터베이스",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_academic_year": 3,
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "IoT프로그래밍",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "실험설계및분석",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "텍스트마이닝",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "PBL"
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "데이터마이닝",
+  "lecture_credit": 6,
+  "lecture_hours": 6,
+  "lecture_type": "융합, 팀티칭"
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전필",
+  "lecture_ name": "기계학습",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "세미나"
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "IoT시스템설계및실습",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "소셜네트워크분석",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "빅데이터처리및응용",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "데이터애널리틱스",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_academic_year": 4,
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "딥러닝프로그래밍",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "세미나"
+ },
+ {
+  "lecture_semester": 1,
+  "lecture_course_type": "전선",
+  "lecture_ name": "산학협력캡스톤설계1",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "프로젝트"
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "빅데이터기획분석론",
+  "lecture_credit": 3,
+  "lecture_hours": 3
+ },
+ {
+  "lecture_semester": 2,
+  "lecture_course_type": "전선",
+  "lecture_ name": "산학협력캡스톤설계2",
+  "lecture_credit": 3,
+  "lecture_hours": 3,
+  "lecture_type": "프로젝트"
+ }
+]
