@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>KW-Vizer Chat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='chat-style.css') }}">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="{{ url_for('static', filename='header.png') }}" alt="KW-Vizer 로고">
+    </a>
+  </header>
+
+  <main>
+    <div class="chat-container" id="chat-container"></div>
+
+    <form class="input-area" onsubmit="sendMessage(event)">
+      <input type="text" id="user-input" placeholder="질문을 입력하세요..." required />
+      <button type="submit">➔</button>
+    </form>
+  </main>
+
+  <script>
+    const class_number = localStorage.getItem("class_number");
+    const user_name = localStorage.getItem("user_name") || "학생";
+
+    if (!class_number) {
+      alert("로그인이 필요합니다.");
+      window.location.href = "login.html"; // 로그인 페이지로 이동
+    }
+
+    function scrollToBottom() {
+      const chatContainer = document.getElementById("chat-container");
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    // URL에서 쿼리 파라미터 가져오는 함수
+    function getQueryParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
+    // 초기 인사 메시지 출력
+    window.onload = function () {
+      const chatContainer = document.getElementById("chat-container");
+
+
+    const initialQuestion = getQueryParam("q") || "무엇을 도와드릴까요?";
+
+    const userMsg = document.createElement("div");
+    userMsg.className = "message user";
+    userMsg.textContent = initialQuestion;
+    chatContainer.appendChild(userMsg);
+
+    const botMsg = document.createElement("div");
+    botMsg.className = "message bot";
+    botMsg.textContent = `${user_name}님의 '${initialQuestion}' 요청을 도와드릴게요!`;
+    chatContainer.appendChild(botMsg);
+
+    scrollToBottom();
+  };
+
+    async function sendMessage(e) {
+      e.preventDefault();
+      const input = document.getElementById("user-input");
+      const message = input.value.trim();
+
+      if (!message) return;
+
+      const chatContainer = document.getElementById("chat-container");
+
+      const userMessage = document.createElement("div");
+      userMessage.className = "message user";
+      userMessage.textContent = message;
+      chatContainer.appendChild(userMessage);
+
+      input.value = "";
+      scrollToBottom();
+
+      try {
+        const res = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message, class_number })
+        });
+
+        const data = await res.json();
+
+        const botMessage = document.createElement("div");
+        botMessage.className = "message bot";
+        botMessage.textContent = data.response || '응답이 없습니다.';
+        chatContainer.appendChild(botMessage);
+
+        scrollToBottom();
+      } catch (err) {
+        console.error('챗봇 오류:', err);
+        const botMessage = document.createElement("div");
+        botMessage.className = "message bot";
+        botMessage.textContent = '서버 오류가 발생했습니다.';
+        chatContainer.appendChild(botMessage);
+        scrollToBottom();
+      }
+    }
+  </script>
+</body>
+</html>
